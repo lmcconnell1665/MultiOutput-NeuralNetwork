@@ -1,0 +1,3 @@
+Question: Meet with you team to discuss the details of how you are going to approach the group assignment. Write pseudo code for every single step in your code. The more details you provide the higher the chance of getting credit for this bonus assignment. 
+
+#Answer:
