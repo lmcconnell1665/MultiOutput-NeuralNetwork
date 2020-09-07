@@ -1,3 +1,16 @@
 Question: Meet with you team to discuss the details of how you are going to approach the group assignment. Write pseudo code for every single step in your code. The more details you provide the higher the chance of getting credit for this bonus assignment. 
 
-#Answer:
+#Answer: 
+
+Step 1: Load in required modules
+Step 2: Specify the architecture
+    - Create an input layer
+    - Create hidden layers (as many as needed)
+    - Create an output layer
+Step 3: Create a model using the input and output layers
+Step 4: Read in a single row from the dataset
+Step 5: Compile the model using the mean squared error as the loss function and using SGD as an optimizer
+Step 6: Fit the model using a batch size of 1
+Step 7: Make a prediction of one value of Y for a specific set of Xs
+Step 8: Evaluate the loss of the prediction
+Step 9: Repeat steps 4 - 8 for each value of X
