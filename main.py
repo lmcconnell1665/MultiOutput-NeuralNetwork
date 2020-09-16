@@ -3,7 +3,7 @@ import gzip
 import os
 import tensorflow as tf
 
-os.chdir(r'/Users/12308/Downloads')
+os.chdir(r'/Users/lukemcconnell/Downloads')
 
 def parse(path):
   g = gzip.open(path, 'rb')
@@ -43,3 +43,6 @@ yhat = model.predict(x=X)
 model.evaluate(x=X,y=y)
 
 
+X = np.array(['hello i am a string'])
+
+ex = tf.keras.preprocessing.text.Tokenizer().fit_on_texts(X)
